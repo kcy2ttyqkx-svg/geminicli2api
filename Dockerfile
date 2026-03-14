@@ -1,5 +1,7 @@
 FROM python:3.11-slim
-
+LABEL org.opencontainers.image.source=https://github.com/kcy2ttyqkx-svg/geminicli2api
+LABEL org.opencontainers.image.description="Gemini CLI to API with Image Generation support"
+LABEL org.opencontainers.image.licenses=MIT
 # Set working directory
 WORKDIR /app
 
